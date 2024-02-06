@@ -174,6 +174,8 @@ AWS_SECRET_KEY = os.environ.get('AWS_SECRET_KEY', '')
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+STATIC_ROOT = ''
+
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
